@@ -4,24 +4,21 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon ./app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leandrofahur/nodejs-mongodb-docker.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Leandro Machado",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/leandrofahur/nodejs-mongodb-docker/issues"
   },
   "homepage": "https://github.com/leandrofahur/nodejs-mongodb-docker#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
+    "express": "^4.17.1",
+    "mongoose": "^5.12.11"
   }
 }
